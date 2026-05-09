@@ -372,7 +372,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("**Session Filter**")
-    session_filter = st.checkbox("Only show 8AM–5PM trades", value=True)
+    session_filter = st.checkbox("Only show 8AM–5PM trades", value=False)
     session_start = 8
     session_end = 17
 
